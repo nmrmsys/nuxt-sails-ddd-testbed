@@ -22,7 +22,8 @@
     "sails-hook-grunt": "^4.0.0",
     "sails-hook-orm": "^2.1.1",
     "sails-hook-sockets": "^2.0.0",
-    "sails-hook-validatorjs": "0.0.1"
+    "sails-hook-validatorjs": "0.0.1",
+    "braces": ">=2.3.1"
   },
   "devDependencies": {
     "eslint": "5.16.0"
