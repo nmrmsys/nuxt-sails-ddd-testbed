@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-sails-ddd-testbed-backend",
+  "private": true,
+  "version": "0.0.1",
+  "description": "nuxt-sails-ddd-testbed-backend",
+  "main": "app.js",
+  "scripts": {
+    "dev": "sails lift",
+    "start": "sails lift --prod",
+    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "lint": "./node_modules/eslint/bin/eslint.js . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.5",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@sailshq/connect-redis": "^3.2.1",
+    "@sailshq/lodash": "^3.10.3",
+    "@sailshq/socket.io-redis": "^5.2.0",
+    "bootstrap-vue": "^2.4.0",
+    "grunt": "1.0.4",
+    "nuxt": "^2.11.0",
+    "sails": "^1.2.3",
+    "sails-hook-autoreload": "^1.1.0",
+    "sails-hook-ddd": "0.0.1",
+    "sails-hook-grunt": "^4.0.0",
+    "sails-hook-orm": "^2.1.1",
+    "sails-hook-sockets": "^2.0.0",
+    "sails-hook-validatorjs": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0"
+  },
+  "engines": {
+    "node": "^10.15"
+  }
+}

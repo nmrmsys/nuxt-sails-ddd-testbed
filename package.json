@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-sails-ddd-testbed",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Nuxt.js + Sails.js + data-domai-driver testbed project",
+  "scripts": {
+    "install": "cd frontend && npm i && cd ../backend && npm i",
+    "install-dev": "npm run install && npm run dev",
+    "dev": "cd backend && npm run dev",
+    "start": "cd frontend && npm run build && cd ../backend && npm run start"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/nmrmsys/nuxt-sails-ddd-testbed#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/nuxt-sails-ddd-testbed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nmrmsys/nuxt-sails-ddd-testbed/issues"
+  },
+  "author": "Masayoshi Nomura <nmrmsys@gmail.com> (http://github.com/nmrmsys)",
+  "license": "MIT"
+}
