@@ -4,7 +4,7 @@
  * @description :: A hook definition.  Extends Sails by adding shadow routes, implicit actions, and/or initialization logic.
  * @docs        :: https://sailsjs.com/docs/concepts/extending-sails/hooks
  */
-const { Nuxt, Builder } = require('nuxt');
+const { Nuxt, Builder } = require('../../../frontend/node_modules/nuxt');
 const signCookie = require('cookie-signature').sign;
 
 module.exports = function defineNuxtHook(sails) {
