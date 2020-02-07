@@ -15,6 +15,10 @@ module.exports = {
         return res.send('index2');
     },
 
+    index3: async function (req, res) {
+        return res.send('index3');
+    },
+
     testDDD: async function (req, res) {
         rtns = await sails.DDD.callProcedure('proc01');
         // return res.view('requestAction', rtns.toObject());
