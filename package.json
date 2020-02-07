@@ -7,7 +7,9 @@
     "install": "cd frontend && npm i && cd ../backend && npm i",
     "install-dev": "npm run install && npm run dev",
     "dev": "cd backend && npm run dev",
-    "start": "cd frontend && npm run build && cd ../backend && npm run start"
+    "build": "cd frontend && npm run build",
+    "heroku-postbuild": "cd frontend && npm run build",
+    "start": "cd backend && npm run start"
   },
   "dependencies": {},
   "devDependencies": {},
